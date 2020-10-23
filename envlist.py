@@ -44,7 +44,8 @@ with lock:
         # prefix envprefix
         # add code here
         clist = []
-        for i in range(nenvs):
+        numEnvs = int(nenvs)
+        for i in range(numEnvs):
             envName = "env"
             envName = "env" + str(i)
             clist.append(envName)
