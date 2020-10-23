@@ -60,7 +60,7 @@ with lock:
         else:
             # get and remove env from clist
             # add code here
-            env = sys.argv[1]
+            env = clist[0]
             clist.remove(env)
             # return env name
             print(env)
