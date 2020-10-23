@@ -46,8 +46,8 @@ with lock:
         clist = []
         numEnvs = int(nenvs)
         for i in range(numEnvs):
-            envName = "env"
-            envName = "env" + str(i)
+            envName = "cenv"
+            envName = "cenv" + str(i)
             clist.append(envName)
     else:
         # load hickle file
